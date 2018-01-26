@@ -1,0 +1,24 @@
+I.  Get Store number
+II. Do an api call for IPAM tool to get all the for the store:
+	 - vlans
+	 - ip
+III. Generate the offset (3 octets) of each-vlan
+	(e.g. VLAN(24) 172.16.7.0/24
+		  VLAN(70) 172.17.7.0/24)
+IV.  Replace the octects with
+
+If the original is
+allow,tcp,<VLAN(24)>.23,Any,<VLAN(70)>.62,58019,413,False
+and generates
+allow,tcp, 172.16.7.23, Any, 172.16.7.62,58019,413,False
+Replace VLAN(24) with the 3 octets generated from IPAM-Tool (Last octect is the range)
+
+(Find out what happens with the "*")
+
+"allow","tcp","10.218.31.23/32","Any","10.154.28.126/32","58019","413","False"
+
+---------------------------------
+
+Two inputs:
+a) Get from IPAM for the store the VLAN mappings
+b) Apply the mappings to the template.

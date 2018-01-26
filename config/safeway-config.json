@@ -1,0 +1,46 @@
+[
+  {
+    "org-name": "Store_QA_Org",
+    "vpn":
+      {
+        "hubnetworks": [
+          "N_686798943174004323",
+          "N_686798943174004324"
+        ],
+        "defaultroute": [
+          true,
+          true
+        ]
+      }
+    ,
+    "vlan":
+      {
+        "update_only": [
+          4
+        ],
+        "device_prefix": "mx",
+        "device_postfix": "a",
+        "funnel_file": "vlans_funnel",
+        "netx_file": "vlans_netx"
+      }
+    ,
+    "firewall": {
+      "blockedVlans": [
+        {
+          "vlan": "995",
+          "ip": "192.168.1.1"
+        },
+        {
+          "vlan": "996",
+          "ip": "192.168.100.1"
+        },
+        {
+          "vlan": "997",
+          "ip": "192.168.101.1"
+        }
+      ],
+      "staticRouteNextHop": "24",
+      "output_file" : "firewall_converted"
+    }
+  }
+]

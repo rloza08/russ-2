@@ -1,0 +1,13 @@
+- Documentation : use generator
+- Create a data_storeNumber for the temporary storage
+- csv/input_storenumber csv/output directories
+- csv generation
+- fixed some cr/return from meraki api in error log
+- men and mice
+- only .py etc in git
+- cli fix
+- clean static route api
+- funnel.csv from soap Men and Mice
+- fix vlans_generated hard coded in vlan_handler
+- Testing ( fix mains and testing)
+

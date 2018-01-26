@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+
+import fire
+import utils.auto_json as json
+import utils.auto_logger as l
+import automation.store_orchestration as update_bulk_network
+import automation.firewall_handler as firewall_handler
+
+def help():
+	print ("Log settings:")
+	print ("MKLOG_SCREEN:",l.LOGSCREEN)
+	print ("MKLOG_FILE:",l.LOGFILE)
+	print ("MKLOG_LEVEL:", l.LOGLEVEL), "(DEBUG, INFO, WARNING, ERROR)"
+
+print ("auto_meraki automation tool.")
+
+if __name__ == '__main__':
+  fire.Fire({
+	  '-h' : help,
+	  '--help' : help,
+	  'help' : help,
+	  '?' : help,
+	  'creation-meraki' : update_bulk_network.deploy,
+	  'firewall-remove-serials': firewall_handler.removeSerials
+  })
+

@@ -1,0 +1,23 @@
+from Naveen to everyone:
+https://api.meraki.com/api/v0/networks/[id]/siteToSiteVpn
+from Naveen to everyone:
+https://api.meraki.com/api/v0/networks/[id]/siteToSiteVpn
+from Naveen to everyone:
+https://dashboard.meraki.com/api_docs#return-the-site-to-site-vpn-settings-of-a-network
+from sushmita to everyone:
+{
+"mode":"spoke",
+"hubs":[{
+  "hubId":"N_686798943174001360",
+  "useDefaultRoute":true
+  }
+],
+  "subnets":[{
+    "localSubnet":"10.235.88.0/22",
+    "useVpn":true
+  },
+  {"localSubnet":"10.171.88.0/22",
+  "useVpn":true
+    
+  }]
+}

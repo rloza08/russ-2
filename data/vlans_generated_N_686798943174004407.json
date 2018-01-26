@@ -1,0 +1,237 @@
+[
+    {
+        "applianceIp": "10.218.148.33",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 4,
+        "name": "networkmgmt",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.218.148.32/27"
+    },
+    {
+        "applianceIp": "10.218.148.65",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 6,
+        "name": "extranetvendor",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.218.148.64/27"
+    },
+    {
+        "applianceIp": "10.218.148.97",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 7,
+        "name": "pharmacy",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.218.148.96/27"
+    },
+    {
+        "applianceIp": "10.218.148.129",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 8,
+        "name": "backstageuser",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.218.148.128/27"
+    },
+    {
+        "applianceIp": "10.218.148.249",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 14,
+        "name": "eCDN",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.218.148.248/29"
+    },
+    {
+        "applianceIp": "10.218.149.1",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 16,
+        "name": "nonsecurewireless",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.218.149.0/24"
+    },
+    {
+        "applianceIp": "10.218.150.1",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 19,
+        "name": "generalstorelan",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.218.150.0/24"
+    },
+    {
+        "applianceIp": "10.218.151.1",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 24,
+        "name": "storelan",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.218.151.0/24"
+    },
+    {
+        "applianceIp": "10.154.148.1",
+        "dnsNameservers": "172.24.98.22\n172.18.0.10",
+        "fixedIpAssignments": {},
+        "id": 35,
+        "name": "digitalsignage",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.154.148.0/27"
+    },
+    {
+        "applianceIp": "10.154.148.33",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 40,
+        "name": "wirelessmgmt",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.154.148.32/27"
+    },
+    {
+        "applianceIp": "10.154.151.193",
+        "dnsNameservers": "172.24.98.22\n172.18.0.10",
+        "fixedIpAssignments": {},
+        "id": 45,
+        "name": "wirelessciscomgmt",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [
+            {
+                "comment": "reserved",
+                "end": "10.154.151.199",
+                "start": "10.154.151.193"
+            }
+        ],
+        "subnet": "10.154.151.192/26"
+    },
+    {
+        "applianceIp": "10.154.151.129",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 60,
+        "name": "vendorvlan2",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.154.151.128/27"
+    },
+    {
+        "applianceIp": "10.154.148.65",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 70,
+        "name": "newpharmacy",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.154.148.64/26"
+    },
+    {
+        "applianceIp": "10.154.148.129",
+        "dnsNameservers": "172.24.98.22\n172.18.0.10",
+        "fixedIpAssignments": {},
+        "id": 75,
+        "name": "macauthwifi",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [
+            {
+                "comment": "reserved",
+                "end": "10.154.148.192",
+                "start": "10.154.148.129"
+            }
+        ],
+        "subnet": "10.154.148.128/25"
+    },
+    {
+        "applianceIp": "10.154.150.193",
+        "dnsNameservers": "172.24.98.22\n172.18.0.10",
+        "fixedIpAssignments": {},
+        "id": 79,
+        "name": "voipclient",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [
+            {
+                "comment": "reserved",
+                "end": "10.154.150.199",
+                "start": "10.154.150.193"
+            },
+            {
+                "comment": "reserved",
+                "end": "10.154.150.254",
+                "start": "10.154.150.251"
+            }
+        ],
+        "subnet": "10.154.150.192/26"
+    },
+    {
+        "applianceIp": "10.154.149.1",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 80,
+        "name": "securewireless",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.154.149.0/24"
+    },
+    {
+        "applianceIp": "10.154.150.161",
+        "dnsNameservers": "172.24.98.22\n172.18.0.10\n",
+        "fixedIpAssignments": {},
+        "id": 81,
+        "name": "fieldservices",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [
+            {
+                "comment": "reserved",
+                "end": "10.154.150.164",
+                "start": "10.154.150.161"
+            }
+        ],
+        "subnet": "10.154.150.160/28"
+    },
+    {
+        "applianceIp": "10.154.150.177",
+        "dnsNameservers": "172.24.98.22\n172.18.0.10",
+        "fixedIpAssignments": {},
+        "id": 82,
+        "name": "ipadquarantine",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [
+            {
+                "comment": "reserved",
+                "end": "10.154.150.179",
+                "start": "10.154.150.177"
+            }
+        ],
+        "subnet": "10.154.150.176/28"
+    },
+    {
+        "applianceIp": "10.154.151.1",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 85,
+        "name": "retclusmgmt",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.154.151.0/26"
+    },
+    {
+        "applianceIp": "10.154.150.129",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 95,
+        "name": "printer",
+        "networkId": "N_686798943174004407",
+        "reservedIpRanges": [],
+        "subnet": "10.154.150.128/27"
+    }
+]

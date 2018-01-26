@@ -1,0 +1,107 @@
+[
+    {
+        "Description": "Network Management",
+        "Subnet": "10.x.a.16/27",
+        "Vlan": "1"
+    },
+    {
+        "Description": "Network Management",
+        "Subnet": "10.x.a.32/27",
+        "Vlan": "4"
+    },
+    {
+        "Description": "Extranet Vendors",
+        "Subnet": "10.x.a.64/27",
+        "Vlan": "6"
+    },
+    {
+        "Description": "Pharmacy",
+        "Subnet": "10.x.a.96/27",
+        "Vlan": "7"
+    },
+    {
+        "Description": "Backstage Users",
+        "Subnet": "10.x.a.128/27",
+        "Vlan": "8"
+    },
+    {
+        "Description": "Store Content Engine",
+        "Subnet": "10.x.a.248/29",
+        "Vlan": "14"
+    },
+    {
+        "Description": "Store Wireless",
+        "Subnet": "10.x.b.0/24",
+        "Vlan": "16"
+    },
+    {
+        "Description": "General Store LAN",
+        "Subnet": "10.x.c.0/24",
+        "Vlan": "19"
+    },
+    {
+        "Description": "POS LAN",
+        "Subnet": "10.x.d.0/24",
+        "Vlan": "24"
+    },
+    {
+        "Description": "Digital Signage",
+        "Subnet": "10.x.e.0/27",
+        "Vlan": "35"
+    },
+    {
+        "Description": "Thin Wireless Mgmt",
+        "Subnet": "10.x.e.32/27",
+        "Vlan": "40"
+    },
+    {
+        "Description": "Cisco Wireless Management",
+        "Subnet": "10.x.h.192/26",
+        "Vlan": "45"
+    },
+    {
+        "Description": "Vendor VLAN II (2nd Subnet)",
+        "Subnet": "10.x.h.128/27",
+        "Vlan": "60"
+    },
+    {
+        "Description": "New Pharmacy",
+        "Subnet": "10.x.e.64/26",
+        "Vlan": "70"
+    },
+    {
+        "Description": "Macauthenticated Wireless Clients",
+        "Subnet": "10.x.e.128/25",
+        "Vlan": "75"
+    },
+    {
+        "Description": "VOIP Clients",
+        "Subnet": "10.x.g.192/26",
+        "Vlan": "79"
+    },
+    {
+        "Description": "Secure Wireless",
+        "Subnet": "10.x.f.0/24",
+        "Vlan": "80"
+    },
+    {
+        "Description": "Field Service Wireless",
+        "Subnet": "10.x.g.160/28",
+        "Vlan": "81"
+    },
+    {
+        "Description": "iPad quarantine vlan",
+        "Subnet": "10.x.g.176/28",
+        "Vlan": "82"
+    },
+    {
+        "Description": "Retail Cluster Management VLAN",
+        "Subnet": "10.x.h.0/26",
+        "Vlan": "85"
+    },
+    {
+        "Description": "Printer VLAN",
+        "Subnet": "10.x.g.128/27",
+        "Vlan": "95"
+    }
+]

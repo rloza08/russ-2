@@ -1,0 +1,11 @@
+[
+    {
+        "Description": "Linus ubuntu test environment",
+        "Version": "V01.22.2018a",
+        "Date": "Jan-22-2018",
+		"apikey" : "97083980007c3eceb50fa3f791b81ced2d151644",
+		"useProxy" : true,
+        "proxy_user" : "lvidal",
+        "proxy_password" :"mypassword"
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "Description": "Network Management",
+        "Subnet": "a.16/27",
+        "Vlan": "1"
+    },
+    {
+        "Description": "Network Management",
+        "Subnet": "a.32/27",
+        "Vlan": "4"
+    },
+    {
+        "Description": "Extranet Vendors",
+        "Subnet": "a.64/27",
+        "Vlan": "6"
+    },
+    {
+        "Description": "Pharmacy",
+        "Subnet": "a.96/27",
+        "Vlan": "7"
+    },
+    {
+        "Description": "Backstage Users",
+        "Subnet": "a.128/27",
+        "Vlan": "8"
+    },
+    {
+        "Description": "Store Content Engine",
+        "Subnet": "a.248/29",
+        "Vlan": "14"
+    },
+    {
+        "Description": "Store Wireless",
+        "Subnet": "b.0/24",
+        "Vlan": "16"
+    },
+    {
+        "Description": "General Store LAN",
+        "Subnet": "c.0/24",
+        "Vlan": "19"
+    },
+    {
+        "Description": "POS LAN",
+        "Subnet": "d.0/24",
+        "Vlan": "24"
+    },
+    {
+        "Description": "Digital Signage",
+        "Subnet": "e.0/27",
+        "Vlan": "35"
+    },
+    {
+        "Description": "Thin Wireless Mgmt",
+        "Subnet": "e.32/27",
+        "Vlan": "40"
+    },
+    {
+        "Description": "Cisco Wireless Management",
+        "Subnet": "h.192/26",
+        "Vlan": "45"
+    },
+    {
+        "Description": "Vendor VLAN II (2nd Subnet)",
+        "Subnet": "h.128/27",
+        "Vlan": "60"
+    },
+    {
+        "Description": "New Pharmacy",
+        "Subnet": "e.64/26",
+        "Vlan": "70"
+    },
+    {
+        "Description": "Macauthenticated Wireless Clients",
+        "Subnet": "e.128/25",
+        "Vlan": "75"
+    },
+    {
+        "Description": "VOIP Clients",
+        "Subnet": "g.192/26",
+        "Vlan": "79"
+    },
+    {
+        "Description": "Secure Wireless",
+        "Subnet": "f.0/24",
+        "Vlan": "80"
+    },
+    {
+        "Description": "Field Service Wireless",
+        "Subnet": "g.160/28",
+        "Vlan": "81"
+    },
+    {
+        "Description": "iPad quarantine vlan",
+        "Subnet": "g.176/28",
+        "Vlan": "82"
+    },
+    {
+        "Description": "Retail Cluster Management VLAN",
+        "Subnet": "h.0/26",
+        "Vlan": "85"
+    },
+    {
+        "Description": "Printer VLAN",
+        "Subnet": "g.128/27",
+        "Vlan": "95"
+    }
+]

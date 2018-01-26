@@ -1,0 +1,16 @@
+Team ,
+
+Thank you all for joining the meeting today. Here is the meeting minutes of today.
+
+ 
+
+Log level was implemented in the code for debugging
+We went through discussion with Network Engineers for  Men & Mice connectivity / Get IP address of device on network (confirm format 'mxSTORE#'), testNetX against IP to determine Store Summary Subnets
+Action Item for Linus :
+I have attached VLAN funnel, please  go for mapping  function call so that we can integrate it on Monday with NetX
+Email Notification needs to be added for sure.
+Create Network and Claim device & add device python code to be worked on
+Documentation for the logger we need.
+ 
+
+I have also attached Firewall rules extracted in form of VLAN  and  IP attached for integration .

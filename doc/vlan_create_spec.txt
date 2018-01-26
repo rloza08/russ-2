@@ -1,0 +1,291 @@
+appliance_ip needs to be
+
+995 , 996, 997 are  leave as it. only replace network id
+
+For the pattern that is not in the 995-997 exception above,
+simply replace there first three octects with the vlan subnet from the vlan table.
+
+        "reservedIpRanges": [
+            {
+                "comment": "reserved range 180 - 190",
+                "end": "10.184.102.179",
+                "start": "10.184.102.177"
+            }
+
+
+
+
+[
+ for
+    {
+        "applianceIp": "{{appliance_ip_first_three_octets for vlan 4}.33}",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 4,
+        "name": "networkmgmt",
+        "networkId": "{{network_id}}",
+        "reservedIpRanges": [],
+        "subnet": "{{subnet_from_vlan_table}}"
+    },
+    {
+        "applianceIp": "10.248.100.65",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 6,
+        "name": "extranetvendor",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.248.100.64/27"
+    },
+    {
+        "applianceIp": "10.248.100.97",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 7,
+        "name": "pharmacy",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.248.100.96/27"
+    },
+    {
+        "applianceIp": "10.248.100.129",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 8,
+        "name": "backstageuser",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.248.100.128/27"
+    },
+    {
+        "applianceIp": "10.248.100.249",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 14,
+        "name": "eCDN",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.248.100.248/29"
+    },
+    {
+        "applianceIp": "10.248.101.1",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 16,
+        "name": "nonsecurewireless",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.248.101.0/24"
+    },
+    {
+        "applianceIp": "10.248.102.1",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 19,
+        "name": "generalstorelan",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.248.102.0/24"
+    },
+    {
+        "applianceIp": "10.248.103.1",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 24,
+        "name": "storelan",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.248.103.0/24"
+    },
+    {
+        "applianceIp": "10.184.100.1",
+        "dnsNameservers": "172.24.98.22\n172.18.0.10",
+        "fixedIpAssignments": {},
+        "id": 35,
+        "name": "digitalsignage",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.184.100.0/27"
+    },
+    {
+        "applianceIp": "10.184.100.33",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 40,
+        "name": "wirelessmgmt",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.184.100.32/27"
+    },
+    {
+        "applianceIp": "10.184.103.193",
+        "dnsNameservers": "172.24.98.22\n172.18.0.10",
+        "fixedIpAssignments": {},
+        "id": 45,
+        "name": "wirelessciscomgmt",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [
+            {
+                "comment": "range from 199-254",
+                "end": "10.184.103.199",
+                "start": "10.184.103.193"
+            }
+        ],
+        "subnet": "10.184.103.192/26"
+    },
+    {
+        "applianceIp": "10.184.103.129",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 60,
+        "name": "vendorvlan2",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.184.103.128/27"
+    },
+    {
+        "applianceIp": "10.184.100.65",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 70,
+        "name": "newpharmacy",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.184.100.64/26"
+    },
+    {
+        "applianceIp": "10.184.100.129",
+        "dnsNameservers": "172.24.98.22\n172.18.0.10",
+        "fixedIpAssignments": {},
+        "id": 75,
+        "name": "macauthwifi",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [
+            {
+                "comment": "DHCP range from 192-254",
+                "end": "10.184.100.192",
+                "start": "10.184.100.129"
+            }
+        ],
+        "subnet": "10.184.100.128/25"
+    },
+    {
+        "applianceIp": "10.184.102.193",
+        "dnsNameservers": "172.24.98.22\n172.18.0.10",
+        "fixedIpAssignments": {},
+        "id": 79,
+        "name": "voipclient",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [
+            {
+                "comment": "reserved range 200-250",
+                "end": "10.184.102.199",
+                "start": "10.184.102.193"
+            },
+            {
+                "comment": "reserved range 200-250",
+                "end": "10.184.102.254",
+                "start": "10.184.102.251"
+            }
+        ],
+        "subnet": "10.184.102.192/26"
+    },
+    {
+        "applianceIp": "10.184.101.1",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 80,
+        "name": "securewireless",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.184.101.0/24"
+    },
+    {
+        "applianceIp": "10.184.102.161",
+        "dnsNameservers": "172.24.98.22\n172.18.0.10\n",
+        "fixedIpAssignments": {},
+        "id": 81,
+        "name": "fieldservices",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [
+            {
+                "comment": "Reserved",
+                "end": "10.184.102.164",
+                "start": "10.184.102.161"
+            }
+        ],
+        "subnet": "10.184.102.160/28"
+    },
+    {
+        "applianceIp": "10.184.102.177",
+        "dnsNameservers": "172.24.98.22\n172.18.0.10",
+        "fixedIpAssignments": {},
+        "id": 82,
+        "name": "ipadquarantine",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [
+            {
+                "comment": "reserved range 180 - 190",
+                "end": "10.184.102.179",
+                "start": "10.184.102.177"
+            }
+        ],
+        "subnet": "10.184.102.176/28"
+    },
+    {
+        "applianceIp": "10.184.103.1",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 85,
+        "name": "retclusmgmt",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.184.103.0/26"
+    },
+    {
+        "applianceIp": "10.184.102.129",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 95,
+        "name": "printer",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "10.184.102.128/27"
+    },
+    {
+        "applianceIp": "192.168.1.1",
+        "dnsNameservers": "google_dns",
+        "fixedIpAssignments": {},
+        "id": 995,
+        "name": "Guest WIFI",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [
+            {
+                "comment": "Reserved",
+                "end": "192.168.1.10",
+                "start": "192.168.1.1"
+            }
+        ],
+        "subnet": "192.168.1.0/24"
+    },
+    {
+        "applianceIp": "192.168.100.1",
+        "dnsNameservers": "upstream_dns",
+        "fixedIpAssignments": {},
+        "id": 996,
+        "name": "Cache VPN",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "192.168.100.0/24"
+    },
+    {
+        "applianceIp": "192.168.101.1",
+        "dnsNameservers": "google_dns",
+        "fixedIpAssignments": {},
+        "id": 997,
+        "name": "Cache Internet",
+        "networkId": "L_650207196201623673",
+        "reservedIpRanges": [],
+        "subnet": "192.168.101.0/24"
+    }
+]

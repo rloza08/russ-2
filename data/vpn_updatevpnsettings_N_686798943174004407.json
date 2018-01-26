@@ -1,0 +1,119 @@
+{
+    "hubs": [
+        {
+            "hubId": "N_686798943174004323",
+            "useDefaultRoute": true
+        },
+        {
+            "hubId": "N_686798943174004324",
+            "useDefaultRoute": true
+        }
+    ],
+    "mode": "spoke",
+    "subnets": [
+        {
+            "localSubnet": "10.218.148.32/27",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.218.148.64/27",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.218.148.96/27",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.218.148.128/27",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.218.148.248/29",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.218.149.0/24",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.218.150.0/24",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.218.151.0/24",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.154.148.0/27",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.154.148.32/27",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.154.151.192/26",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.154.151.128/27",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.154.148.64/26",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.154.148.128/25",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.154.150.192/26",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.154.149.0/24",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.154.150.160/28",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.154.150.176/28",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.154.151.0/26",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.154.150.128/27",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "192.168.192.0/24",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "192.168.1.0/24",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "192.168.100.0/24",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "192.168.101.0/24",
+            "useVpn": false
+        },
+        {
+            "localSubnet": "10.154.148.0/22",
+            "useVpn": true
+        },
+        {
+            "localSubnet": "10.218.148.0/22",
+            "useVpn": true
+        }
+    ]
+}
