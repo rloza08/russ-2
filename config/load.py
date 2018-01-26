@@ -28,10 +28,10 @@ firewallConverted=firewall["output_file"]
 orgid = getOrgId()
 
 useProxy=personal[0]["useProxy"]
-if useProxy:
- 	proxyUser = personal[0]['proxy_user']
- 	proxyPassword = personal[0]['proxy_password']
- 	proxysettings(proxyUser, proxyPassword)
+#if useProxy:
+# 	proxyUser = personal[0]['proxy_user']
+# 	proxyPassword = personal[0]['proxy_password']
+# 	proxysettings(proxyUser, proxyPassword)
 
 vlan=config[0]["vlan"]
 vlanFunnelFile=vlan["funnel_file"]

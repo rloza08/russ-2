@@ -4,6 +4,9 @@ import utils.auto_json as json
 import utils.auto_logger as l
 from api.meraki_patch import meraki
 import traceback
+import os
+
+os.environ['HTTPS_PROXY']="http://culproxyvip.safeway.com:8080";
 
 class networks(object):
 	def getNetIdForStore(self, storeName):
